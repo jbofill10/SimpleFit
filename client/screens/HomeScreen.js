@@ -32,10 +32,10 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
           <DevelopmentModeNotice />
 
-          <Text style={styles.getStartedText}>Hello Dillon</Text>
+          <Text style={styles.getStartedText}>Fuck bitches get </Text>
 
           <Text style={styles.getStartedText}>
-            You mother fucker
+            MONEY
           </Text>
         </View>
 
