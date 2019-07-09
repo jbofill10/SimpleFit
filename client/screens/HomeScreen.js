@@ -22,7 +22,7 @@ export default function HomeScreen() {
           <Image
             source={
               __DEV__
-                ? require('../assets/images/Ness.jpeg')
+                ? require('../assets/images/2019-07-09-07-41-26.png')
                 : require('../assets/images/robot-prod.png')
             }
             style={styles.welcomeImage}
