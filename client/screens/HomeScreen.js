@@ -32,7 +32,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
           <DevelopmentModeNotice />
 
-          <Text style={styles.getStartedText}>Fuck bitches get </Text>
+          <Text style={styles.getStartedText}>Fuck Juans get </Text>
 
           <Text style={styles.getStartedText}>
             MONEY
