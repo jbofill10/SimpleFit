@@ -1,0 +1,9 @@
+{
+    "name": "SimpleFit",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "client": "cd ./client && npm start",
+        "server": "cd ./server && npm start"
+    }
+}
