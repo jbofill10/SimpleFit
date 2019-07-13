@@ -29,5 +29,6 @@
     "babel-preset-expo": "^5.1.0",
     "jest-expo": "^33.0.0"
   },
+  "proxy": "http://10.0.0.3:8080/",
   "private": true
 }

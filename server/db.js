@@ -19,7 +19,8 @@ export default class db {
 
         db.once('open', () => {
             console.log("Successfully connected to MongoDB!")
-        });;
+        });
+        
         return db;
     }
 }

@@ -1,6 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import db from './db'
+import Nutritionix from "./api/nutritionix-api/nutritionix";
 import "dotenv/config"
 
 
@@ -22,4 +23,6 @@ app.get("/", (req,res)=> res.send("Hello"));
 
 app.listen(port, () => {
     console.log("Listening on port", port);
-})
+});
+
+Nutritionix.enableNutritionix(app);
